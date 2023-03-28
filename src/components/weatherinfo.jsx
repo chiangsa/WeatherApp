@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-const API_KEY = "3e9ea9c4c19547938d61f2c0a33ab319"
+const API_KEY = ""
 
 const WeatherInfo = () => {
     const [city, setCity] = useState("Raleigh");
@@ -143,7 +143,7 @@ const WeatherInfo = () => {
             </div>
 
             <div>
-                <input type="text" placeholder="Search Values" onChange={handleSearchInput} />
+                <input type="text" placeholder="Search " onChange={handleSearchInput} />
             </div>
             <div>
                 Filter By:
