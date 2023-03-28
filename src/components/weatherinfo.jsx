@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-const API_KEY = ""
+const API_KEY = "3e9ea9c4c19547938d61f2c0a33ab319"
 
 const WeatherInfo = () => {
     const [city, setCity] = useState("Raleigh");
