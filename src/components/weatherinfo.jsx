@@ -143,7 +143,7 @@ const WeatherInfo = () => {
             </div>
 
             <div>
-                <input type="text" placeholder="Search " onChange={handleSearchInput} />
+                <input type="text" placeholder="Search values" onChange={handleSearchInput} />
             </div>
             <div>
                 Filter By:
