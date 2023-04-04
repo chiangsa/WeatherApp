@@ -65,7 +65,7 @@ Describe any challenges encountered while building the app.
 
 Submitted by: **Shaun Chiang**
 
-This web app: **Same functionality as above, except with a bar graph of temperatures for various cities**
+This web app: **Same functionality as above, except with a bar graph of temperatures and air quality indexes for various cities**
 
 Time spent: **4** hours spent in total
 
