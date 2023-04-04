@@ -31,6 +31,16 @@ const WeatherGraph = () => {
     ],
   };
 
+  const data2 = {
+    labels: weatherData.map((data) => data.data[0].city_name),
+    datasets: [
+      {
+        label: "Air Quality Index (Lower is Better)",
+        data: weatherData.map((data) => data.data[0].aqi)
+      },
+    ],
+  };
+
   return (
     <div>
       <h2>Current Temperature of Popular Cities</h2>
@@ -39,7 +49,14 @@ const WeatherGraph = () => {
       ) : (
         <p></p>
       )}
+      <h2>Current Air Quality of Popular Cities</h2>
+      {weatherData.length > 0 ? (
+        <Bar data={data2} />
+      ) : (
+        <p></p>
+      )}
     </div>
+    
   );
   
 };
